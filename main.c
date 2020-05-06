@@ -87,19 +87,19 @@ int main()
     double scoreEN[SIZE];
     double scoreFR[SIZE];
 
-    score_init(scoreEN, "candide-EN.txt");
-    score_init(scoreFR, "candide-FR.txt");
+    score_init(scoreEN, "data/candide-EN.txt");
+    score_init(scoreFR, "data/candide-FR.txt");
 
-    which_language(scoreEN, "EN", scoreFR, "FR", "candide-EN.txt");
-    which_language(scoreEN, "EN", scoreFR, "FR", "candide-FR.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/candide-EN.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/candide-FR.txt");
     
-    which_language(scoreEN, "EN", scoreFR, "FR", "artFR01.txt");
-    which_language(scoreEN, "EN", scoreFR, "FR", "artFR02.txt");
-    which_language(scoreEN, "EN", scoreFR, "FR", "artFR03.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/artFR01.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/artFR02.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/artFR03.txt");
     
-    which_language(scoreEN, "EN", scoreFR, "FR", "artEN01.txt");
-    which_language(scoreEN, "EN", scoreFR, "FR", "artEN02.txt");
-    which_language(scoreEN, "EN", scoreFR, "FR", "artEN03.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/artEN01.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/artEN02.txt");
+    which_language(scoreEN, "EN", scoreFR, "FR", "data/artEN03.txt");
 
     which_language(scoreEN, "EN", scoreFR, "FR", __FILE__);
     which_language(scoreEN, "EN", scoreFR, "FR", "Makefile");
